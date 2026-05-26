@@ -1,103 +1,171 @@
-# 100DaysML
+# 🚀 100 Days of Machine Learning
 
-# 100DaysML
+This repository documents my journey of learning and implementing **Machine Learning from scratch**, covering everything from **mathematical foundations to advanced algorithms and real-world projects**.
 
-A personal repository for learning and practicing the fundamentals of Machine Learning in 100 days.
+---
 
-This project contains my notes, practice notebooks, datasets, Python programs, visualizations, and small experiments covering the basics of Machine Learning, statistics, Python for data analysis, SQL, and related concepts.
+## 📌 About the Repository
 
-## What I Covered
+This repo is a structured collection of:
 
-This repository includes practice and learning material on:
+* 📊 Data Analysis & Exploration
+* 📈 Data Visualization
+* 🧮 Mathematics for Machine Learning
+* 🤖 Machine Learning Algorithms (from scratch + libraries)
+* 🧪 Experiments & Practice Notebooks
+* 🌐 Django Integration (where applicable)
 
-- Python fundamentals
-- NumPy and Pandas
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Data visualization using Matplotlib, Seaborn, and Plotly
-- Statistics and probability
-- SQL for data analysis
-- Linear Regression
-- Logistic Regression
-- Gradient Descent
-- Feature Selection
-- Machine Learning basics and assumptions
+The goal is to build a **strong conceptual foundation** along with **hands-on implementation**.
 
-## Repository Structure
+---
 
-```text
+## 🗂️ Project Structure
+
+```
 100DaysML/
-├── DataAnalysis/                  # Data gathering, cleaning, EDA, statistics, pandas/numpy practice
-├── Datasets/                      # Practice datasets used across notebooks and exercises
-├── Django/                        # Basic Django practice
-├── MachineLearning/               # Core ML concepts and algorithms
-│   ├── Feature Selection/
-│   ├── GradientDescent/
-│   ├── Regressions/
-│   └── vectors/
-├── python/                        # Core Python concepts and practice scripts
-├── VIsualizations/                # Matplotlib, Seaborn, and Plotly practice
-└── README.md
+│── DataAnalysis/        # Data cleaning, preprocessing, EDA
+│── Datasets/           # Datasets used across projects
+│── MachineLearning/    # ML algorithms & implementations
+│── Visualization/      # Data visualization (Matplotlib, Seaborn, etc.)
+│── Django/             # ML integration with web apps
+│── requirements.txt    # Project dependencies
+│── README.md
+```
 
-Topics in Detail
-Data Analysis
-    Data gathering
-    Data assessing and cleaning
-    Exploratory Data Analysis
-    Working with real datasets
-    Pandas and NumPy operations
-Statistics
-    Probability distributions
-    Central Limit Theorem
-    Log transform and power transform
-    Hypothesis testing
-    Sampling concepts
-Machine Learning
-    Gradient descent intuition and implementation
-    Linear regression concepts and assumptions
-    Logistic regression basics
-    Multicollinearity
-    Feature selection
-    Model evaluation basics
-Python Practice
-    Functions and recursion 
-    OOP concepts
-    Collections
-    Exceptions
-    Itertools
-    Strings, lists, tuples, sets, and dictionaries
-Visualizations
-    Matplotlib basics
-    Seaborn charts
-    Plotly practice
-    Goal of This Repository
+---
 
-The goal of this repository is to build a strong foundation in:
-    Python programming
-    Data analysis
-    Statistics
-    Machine Learning basics
+## 📚 Topics Covered
 
-It serves as a day-by-day practice space to track my progress and strengthen concepts through hands-on coding and notebooks.
+### 🔢 Mathematics for ML
 
-How to Use
-    Browse the folders based on the topic you want to learn.
-    Open the Jupyter notebooks to see code examples and practice exercises.
-    Use the datasets provided to rerun the analysis and ML experiments.
-    Refer to the Python scripts for basic programming practice.
+* Linear Algebra (Vectors, Matrices)
+* Probability & Statistics
+* Distributions (Normal, Binomial, etc.)
+* Hypothesis Testing
+* Confidence Intervals
 
-Requirements
-    To run most notebooks and scripts, you will typically need:
+---
 
-    Python 3.x
-    Jupyter Notebook
-    NumPy
-    Pandas
-    Matplotlib
-    Seaborn
-    Plotly
-    scikit-learn
+### 📊 Data Analysis
 
-Install common packages with:
+* Data Cleaning
+* Handling Missing Values
+* Feature Engineering
+* Outlier Detection
 
-pip install numpy pandas matplotlib seaborn plotly scikit-learn notebook
+---
+
+### 📈 Visualization
+
+* Matplotlib
+* Seaborn
+* Exploratory Data Analysis (EDA)
+
+---
+
+### 🤖 Machine Learning Algorithms
+
+#### Supervised Learning
+
+* Linear Regression
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Support Vector Machines (SVM)
+* Decision Trees
+* Random Forest
+
+#### Unsupervised Learning
+
+* K-Means Clustering
+* Hierarchical Clustering
+* PCA (Dimensionality Reduction)
+
+---
+
+### ⚙️ Tools & Libraries
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib / Seaborn
+* Scikit-learn
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/100DaysML.git
+cd 100DaysML
+```
+
+---
+
+### 2. Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+* Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+* Mac/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🎯 Goals of This Repository
+
+* Build strong ML fundamentals
+* Learn by implementing algorithms
+* Maintain consistency through daily practice
+* Create a solid portfolio for ML roles
+
+---
+
+## 📌 Future Improvements
+
+* Add deep learning projects
+* Add real-world datasets
+* Deploy ML models
+* Improve documentation and structure
+
+---
+
+## 🤝 Contributions
+
+This is a personal learning repository, but suggestions and improvements are always welcome!
+
+---
+
+## ⭐ Support
+
+If you find this helpful, consider giving it a ⭐ on GitHub!
+
+---
+
+## 👨‍💻 Author
+
+**Mohit Naskar**
+Aspiring ML Engineer | Passionate about AI & Data Science
+
+---
