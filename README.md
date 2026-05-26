@@ -1,4 +1,4 @@
-# 🚀 100 Days of Machine Learning
+# 🚀 Foundation of Machine Learning
 
 This repository documents my journey of learning and implementing **Machine Learning from scratch**, covering everything from **mathematical foundations to advanced algorithms and real-world projects**.
 
